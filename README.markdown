@@ -11,6 +11,6 @@ Lookup Norwegian car number plate prefixes and see where in the country they are
 
 ## Todo
 
-* Search form with result display
+* Filter search input
 * [Special prefixes](http://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Norway#Car_number_prefixes_and_sequence_numbers)
 
