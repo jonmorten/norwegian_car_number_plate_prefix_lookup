@@ -1,0 +1,19 @@
+CREATE TABLE county (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT
+);
+CREATE TABLE area (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    county_id INTEGER
+);
+CREATE TABLE prefix (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    area_id INTEGER,
+    note_id INTEGER
+);
+CREATE TABLE note (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    note TEXT
+);
