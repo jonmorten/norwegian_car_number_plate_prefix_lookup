@@ -38,7 +38,7 @@ def prefix_by_area(name):
     return json_response(result)
 
 
-@app.route("/prefix/")
+@app.route("/prefixes/")
 def prefixes():
     result = db.fetchall("SELECT name FROM prefix")
     return json_response(result)
