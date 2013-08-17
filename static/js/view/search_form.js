@@ -1,11 +1,14 @@
 define( [
+	'lib/num_plate_prefix_lookup',
 	'jquery',
 	'backbone'
-], function() {
+], function( Lookup ) {
 
 	var SearchFormView = Backbone.View.extend( {
-		initialize: function() {
-			console.log( arguments );
+		initialize: function ( options ) {
+			Lookup( 'cf', function( reply ) {
+				console.log( reply );
+			} );
 		}
 	} );
 

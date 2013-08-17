@@ -42,7 +42,7 @@ function( $, SearchFormView ) {
 	$( document ).ready( function() {
 		var $root = $( '#root' );
 
-		searchFormView = new SearchFormView( { test: 'test' } );
+		searchFormView = new SearchFormView( { el: $root } );
 	} );
 
 
